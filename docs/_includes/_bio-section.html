@@ -1,0 +1,16 @@
+<section id="bio" class="flex">
+  <div class="container flex">
+    <div class="flex title">
+      <h2>BIO</h2>
+    </div>
+    <div class="flex row">
+      <div class="bio-grid flex">
+        <img class="me" src="./assets/img/me.png"/>
+      </div>
+      <div class="bio-grid">
+        {% assign bio_data = site.data.section-content["bio"] %}
+        {{ bio_data.desc }}
+      </div>
+    </div>
+  </div>
+</section>

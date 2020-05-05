@@ -1,0 +1,21 @@
+title: Antonio Mateo Website
+#-------------------------
+name: Antonio Mateo Website
+#-------------------------
+description: Hello, I´m Antonio Mateo. I am a dynamic Front End developer with a great motivation to learn new technologies, looking for opportunities to continue growing professionally.
+#-------------------------
+author: AntonioMateoGomez
+#-------------------------
+twitter_username: "@aMateoPaolo"
+github_username:  AntonioMateoGomez
+#-------------------------
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
+#-------------------------
+permalink: pretty
+#-------------------------
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', '.bundle', 'extra']
+#-------------------------
+github_repository: https://github.com/AntonioMateoGomez/AntonioMateo

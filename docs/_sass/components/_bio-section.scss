@@ -1,0 +1,15 @@
+#bio {
+  background-color: $bacground-bio;
+  color: $text-bio-color;
+  padding: 100px 0 130px 0;
+
+  .me {
+    border-radius: 50%;
+    padding: 0 50px;
+    min-width: 75%;
+  }
+
+  .bio-grid {
+    width: $column-5;
+  }
+}

@@ -1,0 +1,25 @@
+<footer id="footer">
+  <div class="footer-content">
+    <div id="footer-icons" class="footer-div">
+      <ul>
+        {% for item in site.data.footer-nav.nav %}
+        <li>
+          <a href="{{ item.url }}" target="_blank"
+           title="{{ item.title }}" alt="{{ item.title }}" class="{{ active }}">
+            {% if item.icon != "" %}
+            <i class="fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
+            {% else %}
+            <span>{{ item.title }}</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div id="footer-info" class="footer-div">
+      <div class="copyright">
+        <p>© {{ site.time | date: '%Y' }} ANTONIO MATEO</p>
+      </div>
+    </div>
+  </div>
+</footer>
