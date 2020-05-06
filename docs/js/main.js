@@ -3,7 +3,6 @@ $(function() {
   // NAV POSITION
   var navPos = $('nav').position().top;
   var lastPos = 0;
-  var lockTimer;
 
   $(window).on('scroll', function() {
     var pos = $(window).scrollTop();
@@ -34,17 +33,6 @@ $(function() {
     ) {
       highlightLink('contact');
     }
-
-    // Prevent Hover on Scroll
-    clearTimeout(lockTimer);
-    if (!$('body').hasClass('disable-hover')) {
-      $('body').addClass('disable-hover');
-    }
-
-    lockTimer = setTimeout(function() {
-      $('body').removeClass('disable-hover');
-    }, 500);
-
   });
 
   function highlightLink(anchor) {
