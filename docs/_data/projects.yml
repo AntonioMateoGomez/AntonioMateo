@@ -1,0 +1,29 @@
+content:
+    - title: Arrow
+      description: Compares benchmarks between branches and detects performace downgrade
+      image: assets/img/arrow-poster.png
+      url: https://arrow-kt.io/
+
+    - title: SBT-Microsites
+      description: Include the comparison in your IQ and show the result in your PR
+      image: assets/img/sbt-microsites-poster.png
+      url: https://47degrees.github.io/sbt-microsites/
+
+    - title: GuessWho
+      description: Include the comparison in your IQ and show the result in your PR
+      image: assets/img/guesswho-poster.png
+
+    - title: 47Deg Site
+      description: Compares benchmarks between branches and detects performace downgrade
+      image: assets/img/47site-poster.png
+      url: https://www.47deg.com/
+
+    - title: Fetch
+      description: Include the comparison in your IQ and show the result in your PR
+      image: assets/img/fetch-poster.png
+      url: https://47degrees.github.io/fetch/
+
+    - title: Hood
+      description: Include the comparison in your IQ and show the result in your PR
+      image: assets/img/hood-poster.png
+      url: https://47degrees.github.io/hood/
