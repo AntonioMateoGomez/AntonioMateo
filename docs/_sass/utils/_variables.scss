@@ -8,14 +8,20 @@
 // Colors
 $black: #000;
 $white: #FFF;
+$gray: #efefef;
 $background-color: #252934;
+$background-contact: #363d53;
+$background-success: #04c986;
+$background-bio: #ececec;
 $secondary-color: #00bcd4;
-$active-color: #f35a2f;
-$bacground-bio: #ececec;
+$active-color: #e9317d;
 $text-bio-color: #444649;
+$border-success: #157c59;
+$text-success: #157051;
 //--
 $link-color: $white;
-$link-hover: darken($white, 30%);
+//$link-hover: darken($white, 30%);
+$link-hover: $secondary-color;
 // Typography
 $base-font-family: "Poppins", sans-serif;
 $brand-font-family: "Poppins", sans-serif;

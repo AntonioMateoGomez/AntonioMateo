@@ -1,7 +1,30 @@
 <section id="contact" class="flex">
-  <div class="flex">
-    <div class="text">
-      <h3>CONTACT</h3>
+  <div class="container flex">
+    <div class="title flex">
+      <h2>CONTACT</h2>
+    </div>
+    <div>
+      <form
+        id="contact-form"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/mnqgqlkl"
+        method="post"
+      >
+        <input type="text" class="input-form" name="name" id="full-name" placeholder="Full Name" required="">
+        <input type="email" class="input-form" name="_replyto" id="email-address"
+          placeholder="Email Address" required=""
+        >
+        <textarea rows="5" class="input-form" name="message" id="message"
+          placeholder="Message" required=""
+        ></textarea>
+        <div id="status" class="message-wrapper">
+          <div id="status-message"></div>
+          <img id="close" src="./assets/img/icons/icon-close.svg" alt="Close">
+        </div>
+
+        <input id="submit" type="submit" value="SUBMIT" class="button">
+      </form>
     </div>
   </div>
 </section>

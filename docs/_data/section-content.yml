@@ -1,2 +1,13 @@
 bio:
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    tech_desc1: After some years in the software industry, I found my true passion in the Front End area, specializing in the web layout work where I really feel comfortable and confident in my abilities. <br/>
+      The work I offer is characterized by a clean and readable code.
+    tech_desc2: My front-end build process involves the use of
+    personal_desc: Outside of work I love spending time with my family, composing music, painting, and reading.
+    tools:
+      - name: HTML
+      - name: CSS
+      - name: SASS
+      - name: Jekyll
+      - name: JS
+      - name: React
+      - name: Bootstrap
