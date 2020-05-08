@@ -77,19 +77,16 @@
       position: absolute;
       right: 0;
       border: 2px solid $secondary-color;
-      font-size: 13pt;
       margin: 0 auto;
       padding: 7px 0;
       width: 170px;
       transition: all 0.3s ease-in-out;
       color: $secondary-color;
+      text-align: center;
 
       &:hover {
-        background: $secondary-color;
         color: $white;
-        text-decoration: none;
       }
-
     }
 
     .overlay {
@@ -108,5 +105,5 @@
   .portfolio-figure:hover .portfolio-content { opacity: 1 }
   .portfolio-figure:hover .overlay { opacity: 1 }
   .portfolio-content:hover .button { bottom: 24%; opacity: 1; }
-  .portfolio-content:hover p { top: 30%; opacity: 1; }
+  .portfolio-content:hover p { top: 35%; opacity: 1; }
 }

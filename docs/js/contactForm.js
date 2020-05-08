@@ -10,7 +10,7 @@
     const close = document.getElementById("close").addEventListener("click", closeMessage);
 
     function closeMessage() {
-      status.classList.add("collapse");
+      status.classList.remove("expand");
     }
 
     // Success and Error functions for after the form is submitted
@@ -19,7 +19,7 @@
       form.reset();
       button.style = "display: none ";
       statusMessage.innerHTML = "Your message was sent succesfully. Thanks!";
-      status.classList.remove("collapse");
+      status.classList.add("expand");
     }
 
     function error() {

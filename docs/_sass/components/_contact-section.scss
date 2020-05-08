@@ -1,38 +1,66 @@
 #contact{
   padding: 100px 0 50px 0;
-
+  background-image: linear-gradient($background-contact, $background-color);
+  min-height: 450px;
+  
   #contact-form {
-    min-width: 500px;
+    width: 500px;
   }
 
-  #status {
+  .message-wrapper {
     overflow: hidden;
     position: relative;
-    transition: height 0.25s;
+    transition: all 0.25s;
     width: 100%;
+    display: none;
+
+    #status-message {
+      margin-right: 8px;
+    }
+  }
+
+  .expand {
     display: inline-flex;
-    justify-content: space-around;
+    align-items: center;
+    color: $text-success;
+    background: $background-success;
+    border: 1px solid $border-success;
+    padding: 0 8px;
+    margin-top: 4px;
   }
 
-  .collapse {
-    height: 0;
-  }
-
-  .close {
+  #close {
     padding: 8px;
     cursor: pointer;
+    transition: transform 0.15s;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
   }
 
   .input-form {
     background: #1e242c;
     border: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: $gray;
     display: block;
     font-size: 12pt;
     margin-bottom: 3px;
     outline: none;
     padding: 10px 15px;
     width: 100%;
+  }
+
+  form {
+    textarea {
+      max-width: 500px;
+      min-width: 500px;
+      min-height: 110px;
+    }
+  }
+
+  .button {
+    margin-top: 8px;
   }
 }

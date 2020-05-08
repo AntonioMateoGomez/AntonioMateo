@@ -1,5 +1,5 @@
 #bio {
-  background-color: $bacground-bio;
+  background-color: $background-bio;
   color: $text-bio-color;
   padding: 100px 0 130px 0;
 
@@ -10,5 +10,25 @@
 
   .bio-grid {
     width: $column-5;
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    ul {
+      display: flex;
+      margin: 8px 0px 14px 0px;
+      flex-wrap: wrap;
+
+      li {
+        background-color: $active-color;
+        color: $white;
+        padding: 4px 8px;
+        border-radius: 3px;
+        pointer-events: none;
+        margin-top: 4px;
+        margin-right: 6px;
+      }
+    }
   }
 }

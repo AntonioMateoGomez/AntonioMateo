@@ -11,24 +11,3 @@
   -o-transform: rotate($degrees);
   transform: rotate($degrees);
 }
-
-// Hover
-//------------------------------------------------
-@mixin links($link, $visited, $hover, $active) {
-  & {
-    color: $link;
-
-    &:visited {
-      color: $visited;
-    }
-
-    &:hover {
-      color: $hover;
-    }
-
-    &:active,
-    &:focus {
-      color: $active;
-    }
-  }
-}

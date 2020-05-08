@@ -29,10 +29,8 @@
         padding: 0 $base-point-grid;
         a {
           padding: $base-point-grid;
+          font-size: 1.25rem;
           &:hover {
-            i {
-              opacity: 0.75;
-            }
             text-decoration: none;
           }
         }
