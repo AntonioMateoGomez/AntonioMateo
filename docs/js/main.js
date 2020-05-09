@@ -59,4 +59,12 @@ $(function() {
       400
     );
   });
+
+  $('#link-top').click(function() {
+    $('html, body').animate({
+        scrollTop: $('#home').offset().top
+      },
+      400
+    );
+  });
 });

@@ -1,5 +1,5 @@
 #footer {
-  padding: 50px 50px 20px 50px;
+  padding: 20px 50px;
   transition: all $base-duration $base-timing;
 
   .footer-content {
@@ -36,6 +36,38 @@
         }
       }
     }
+  }
+
+  .link-top-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 40px;
+  }
+
+  #link-top:hover {
+    cursor: pointer;
+  }
+
+  .point-up {
+    padding: 8px;
+    background-color: $active-color;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+
+  }
+
+  .point-up:hover,
+  .point-up:focus,
+  .point-up:active {
+    transform: translateY(-8px);
   }
 }
 
