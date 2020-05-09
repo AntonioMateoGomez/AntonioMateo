@@ -27,6 +27,10 @@ body {
   line-height: $base-line-height;
 }
 
+.overflow-hiden {
+  overflow-x: hidden;
+}
+
 a {
   color: $link-color;
   text-decoration: none;
@@ -115,4 +119,31 @@ h2 {
     color: $white;
     text-decoration: none;
   }
+}
+
+.link-top {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: $active-color;
+    bottom: -60px;
+    right: 24px;
+    text-align: center;
+    transition: bottom $base-duration $base-timing;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $white;
+        text-decoration: none;
+    }
+    &:hover{
+        text-decoration: none;
+        bottom: 34px;
+    }
+
+    i {
+        display: block;
+        margin-top: 12px;
+    }
 }
