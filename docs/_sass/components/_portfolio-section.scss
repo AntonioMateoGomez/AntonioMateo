@@ -118,3 +118,17 @@
   .portfolio-content:hover p { top: 35%; opacity: 1; }
   .portfolio-content:hover h2 { top: 20%; opacity: 1; }
 }
+
+// Responsive
+@include bp(large) {
+  #portfolio {
+    .portfolio-card {
+      width: 100vw;
+      .portfolio-content {
+        h2 {
+          padding: unset;
+        }
+      }
+    }
+  }
+}

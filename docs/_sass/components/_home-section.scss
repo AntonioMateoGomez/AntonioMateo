@@ -14,10 +14,10 @@
     position: absolute;
     background: #1b242f;
     border-bottom: 3px solid $secondary-color;
-    height: 50px;
+    height: $base-point-grid * 6;
     text-align: left;
     width: 100%;
-    z-index: 99;
+    z-index: 2;
 
     .link-wrap {
       background: none;
@@ -34,6 +34,7 @@
       font-size: initial;
       margin: 0 20px;
       cursor: pointer;
+      text-transform: uppercase;
 
       &:hover {
         color: $active-color;
@@ -51,5 +52,13 @@
     position: fixed;
     top: 0;
   }
+}
 
+// Responsive
+@include bp(large) {
+  #home {
+    .flex {
+      align-items: flex-start;
+    }
+  }
 }
