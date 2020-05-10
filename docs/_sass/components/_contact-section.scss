@@ -1,5 +1,5 @@
 #contact {
-  padding: 80px 0 50px 0;
+  padding: $base-point-grid * 10 0 $base-point-grid * 6 0;
   background-image: linear-gradient($background-contact, $background-color);
   min-height: 450px;
 
@@ -15,7 +15,7 @@
     display: none;
 
     #status-message {
-      margin-right: 8px;
+      margin-right: $base-point-grid;
     }
   }
 
@@ -25,12 +25,12 @@
     color: $text-success;
     background: $background-success;
     border: 1px solid $border-success;
-    padding: 0 8px;
-    margin-top: 4px;
+    padding: 0 $base-point-grid;
+    margin-top: $base-point-grid / 2;
   }
 
   #close {
-    padding: 8px;
+    padding: $base-point-grid;
     cursor: pointer;
     transition: transform 0.15s;
 
@@ -40,15 +40,15 @@
   }
 
   .input-form {
-    background: #1e242c;
+    background: $background-nav;
     border: 0;
     box-sizing: border-box;
     color: $gray;
     display: block;
     font-size: 12pt;
-    margin-bottom: 3px;
+    margin-bottom: $base-point-grid / 2;
     outline: none;
-    padding: 10px 15px;
+    padding: $base-point-grid $base-point-grid * 2;
     width: 100%;
   }
 
@@ -61,7 +61,7 @@
   }
 
   .button {
-    margin-top: 8px;
+    margin-top: $base-point-grid;
   }
 }
 
@@ -72,8 +72,8 @@
       width: 90vw;
 
       textarea {
-        max-width: unset;
-        min-width: unset;
+        max-width: 90vw;
+        min-width: 90vw;
       }
     }
   }

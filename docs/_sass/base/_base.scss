@@ -64,7 +64,7 @@ h2 {
 .container {
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1135px;
+  max-width: $container-width;
   padding: 0 $base-point-grid * 2;
   width: 100%;
 }

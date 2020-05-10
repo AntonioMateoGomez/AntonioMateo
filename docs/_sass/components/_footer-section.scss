@@ -1,5 +1,5 @@
 #footer {
-  padding: 20px 50px;
+  padding: $base-point-grid * 3 $base-point-grid * 6;
   transition: all $base-duration $base-timing;
 
   .footer-content {
@@ -16,7 +16,7 @@
   #footer-info {
     font-size: small;
     text-align: center;
-    padding-top: 30px;
+    padding-top: $base-point-grid * 4;
   }
 
   #footer-icons {
@@ -42,7 +42,7 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
-    bottom: 40px;
+    bottom: $base-point-grid * 5;
   }
 
   #link-top:hover {
@@ -77,7 +77,7 @@
   font-size: small;
 
   li {
-    padding: 0 14px 0 0;
+    padding: 0 $base-point-grid * 2 0 0;
     a {
       &:hover {
         text-decoration: none;
@@ -101,7 +101,7 @@
 // Responsive
 @include bp(large) {
   #footer {
-    padding: 20px;
+    padding: $base-point-grid * 2;
 
     .footer-content {
       flex-direction: column;

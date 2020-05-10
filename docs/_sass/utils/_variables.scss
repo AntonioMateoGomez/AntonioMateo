@@ -13,6 +13,7 @@ $background-color: #252934;
 $background-contact: #515d80;
 $background-success: #04c986;
 $background-bio: #ececec;
+$background-nav: #1b242f;
 $secondary-color: #00bcd4;
 $active-color: #e9317d;
 $text-bio-color: #444649;
@@ -40,6 +41,9 @@ $font-medium: 500;
 $font-semibold: 600;
 // Sizes
 $base-point-grid: 8px;
+$portfolio-card-height: 335px;
+$container-width: 1135px;
+$nav-height: $base-point-grid * 6;
 // Animations
 $base-duration: 350ms;
 $base-timing: ease;
