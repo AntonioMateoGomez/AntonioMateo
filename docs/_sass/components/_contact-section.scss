@@ -64,3 +64,17 @@
     margin-top: 8px;
   }
 }
+
+// Responsive
+@include bp(large) {
+  #contact {
+    #contact-form {
+      width: 90vw;
+
+      textarea {
+        max-width: unset;
+        min-width: unset;
+      }
+    }
+  }
+}

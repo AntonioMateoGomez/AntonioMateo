@@ -101,7 +101,7 @@
 // Responsive
 @include bp(large) {
   #footer {
-    padding-top: 20px;
+    padding: 20px;
 
     .footer-content {
       flex-direction: column;
