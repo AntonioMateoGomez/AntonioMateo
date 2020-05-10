@@ -14,7 +14,7 @@ content:
     #   image: assets/img/guesswho-poster.png
 
     - title: 47 Degrees website
-      description: HTML / Css / Sass / Jekyll / Web performance analysis
+      description: HTML / Css / Sass / Jekyll / Web performance analysis / JS
       image: assets/img/47site-poster.png
       url: https://www.47deg.com/
 

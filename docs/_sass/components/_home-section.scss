@@ -19,22 +19,11 @@
     width: 100%;
     z-index: 2;
 
-    .link-wrap {
-      background: none;
-      height: initial;
-      overflow: visible;
-      position: initial;
-      text-align: left;
-      display: flex;
-      transition: color 1s;
-    }
-
     .page-link {
-      display: inline;
       font-size: initial;
-      margin: 0 20px;
       cursor: pointer;
       text-transform: uppercase;
+      margin: $base-point-grid * 2;
 
       &:hover {
         color: $active-color;
@@ -43,6 +32,18 @@
 
     .active {
       color: $active-color;
+    }
+
+    .toggle-icon {
+      display: none;
+      position: absolute;
+      right: 5vw;
+      bottom: 12px;
+      cursor: pointer;
+    }
+
+    .menu-toggle-flex {
+      height: $menu-toggle-height;
     }
   }
 
@@ -55,10 +56,35 @@
 }
 
 // Responsive
-@include bp(large) {
+@include bp(medium) {
   #home {
     .flex {
       align-items: flex-start;
     }
+
+    #navbar {
+      .toggle-icon {
+        display: block;
+      }
+    }
+  }
+
+  .link-wrap {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: $nav-height;
+    transition: height 0.3s ease-out;
+    width: 100%;
+    background-color: $background-color;
+    transition: height 0.3s ease-out;
+  }
+}
+
+@media screen and (min-width: $bp-medium) {
+  nav .link-wrap div {
+      display: inline;
+      font-size: initial;
+      padding: initial;
   }
 }
