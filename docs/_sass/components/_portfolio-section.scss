@@ -80,7 +80,7 @@
       }
 
       .technologies {
-        color: $active-color;
+        color: lighten($color: $text-bio-color, $amount: 40%);
       }
     }
 
