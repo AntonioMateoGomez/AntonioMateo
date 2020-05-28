@@ -1,34 +1,42 @@
 content:
-    - title: Arrow website
-      description: HTML / Css / Sass / JS / Lottie animations / JeKyll / Liquid
-      image: assets/img/arrow-poster.png
-      url: https://arrow-kt.io/
+  - title: Arrow website
+    description: Λrrow is a library for Typed Functional Programming in Kotlin, In this project I was in charge of the implementation of the website and all its sections, main, docs, and blog.
+    technologies: HTML / Css / Sass / JS / Lottie animations / JeKyll / Liquid
+    image: assets/img/arrow-poster.png
+    url: https://arrow-kt.io/
 
-    - title: SBT-Microsites
-      description: ScalaJS / Jekyll / Sass
-      image: assets/img/sbt-microsites-poster.png
-      url: https://47degrees.github.io/sbt-microsites/
-    #
-    # - title: GuessWho
-    #   description: React / JS / MaterialUI
-    #   image: assets/img/guesswho-poster.png
+  - title: Bow-Arch
+    description: Bow Arch is a library to architect applications in pure Functional Programming. I was responsible of the website implementation.
+    technologies: HTML / Css / Sass / Jekyll / Liquid
+    image: assets/img/bow-arch-poster.png
+    url: https://arch.bow-swift.io/
 
-    - title: 47 Degrees website
-      description: HTML / Css / Sass / Jekyll / Web performance analysis / JS
-      image: assets/img/47site-poster.png
-      url: https://www.47deg.com/
+  - title: SBT-Microsites
+    description: sbt-microsites is an SBT plugin created by 47deg. I was responsible for the implementation of new layouts available in v1.0.0 of the library
+    technologies: ScalaJS / Jekyll / Sass
+    image: assets/img/sbt-microsites-poster.png
+    url: https://47degrees.github.io/sbt-microsites/
 
-    - title: Fetch
-      description: HTML / Css / Sass / Jekyll / Liquid
-      image: assets/img/fetch-poster.png
-      url: https://47degrees.github.io/fetch/
+  - title: 47 Degrees website
+    description: I take an active part in the maintenance of the company's website, highlighting the Training section and the improvement in web load times, SEO, among other improvements
+    technologies: HTML / Css / Sass / Jekyll / Web performance analysis / JS
+    image: assets/img/47site-poster.png
+    url: https://www.47deg.com/
 
-    - title: Hood
-      description: HTML / Css / Sass / Jekyll / Liquid
-      image: assets/img/hood-poster.png
-      url: https://47degrees.github.io/hood/
+  - title: Fetch
+    description: Fetch is a Scala library for simple and efficient data access. I was responsible of the website implementation using SBT-microsites.
+    technologies: HTML / Css / Sass / Jekyll / Liquid
+    image: assets/img/fetch-poster.png
+    url: https://47degrees.github.io/fetch/
 
-    - title: Neonvampire website
-      description: HTML / Css / Sass / Jekyll / Liquid
-      image: assets/img/neonvampire-poster.png
-      url: https://www.neonvampire.com
+  - title: Hood
+    description: A plugin to compare benchmarks and set the result as a Github status and comment on each Pull Reques. I was responsible of the website implementation using SBT-microsites.
+    technologies: HTML / Css / Sass / Jekyll / Liquid
+    image: assets/img/hood-poster.png
+    url: https://47degrees.github.io/hood/
+
+  - title: Neonvampire website
+    description: Implementation and maintenance of the Neon Vampire band official Website.
+    technologies: HTML / Css / Sass / Jekyll / Liquid
+    image: assets/img/neonvampire-poster.png
+    url: https://www.neonvampire.com
