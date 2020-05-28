@@ -1,20 +1,35 @@
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{site.name}}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{site.description}}">
-  <meta name="keywords" content="{{site.keywords}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{site.description}}" />
+  <meta name="keywords" content="{{site.keywords}}" />
 
-  <meta property="og:image" content="" />
+  <meta
+    property="og:image"
+    content="{{ '/assets/img/poster.png' | relative_url }}"
+  />
   <meta property="og:title" content="{{site.name}}" />
   <meta property="og:site_name" content="{{site.name}}" />
   <meta property="og:url" content="https://AntonioMateo.github.io." />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="{{site.description}}" />
 
+  <meta name="twitter:text:description" content="{{site.description}}" />
+  <meta
+    name="twitter:card"
+    content="{{ '/assets/img/poster.png' | relative_url }}"
+  />
+  <meta name="twitter:site" content="{{site.twitter_username}}" />
+  <meta name="twitter:creator" content="{{site.twitter_username}}" />
+  <meta
+    name="twitter:image"
+    content="{{ '/assets/img/poster.png' | relative_url }}"
+  />
+
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <!-- Js -->
   <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
@@ -22,8 +37,17 @@
   <script defer src="{{ '/js/contactForm.js' | relative_url }}"></script>
 
   <!-- Main css -->
-  <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' | relative_url }}">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" media="defer"
-    onload="this.media='all'">
-
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ '/css/styles.css' | relative_url }}"
+  />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+    media="defer"
+    onload="this.media='all'"
+  />
 </head>
