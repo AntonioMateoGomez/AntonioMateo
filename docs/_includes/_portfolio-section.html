@@ -12,7 +12,8 @@
           >
           <div class="portfolio-content">
             <h2>{{ item.title}}</h2>
-            <p>{{ item.description }}</p>
+            <p class="description">{{ item.description }}</p>
+            <p class="technologies">{{ item.technologies }}</p>
             <a class="button flex" href="{{ item.url | relative_url }}" target="_blank"">
               <span>VISIT WEBSITE</span>
             </a>
