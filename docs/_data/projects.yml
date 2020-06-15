@@ -18,7 +18,7 @@ content:
     url: https://47degrees.github.io/sbt-microsites/
 
   - title: 47 Degrees website
-    description: I take an active part in the maintenance of the company's website, highlighting the Training section and the improvement in web load times, SEO, among other improvements
+    description: I take an active part in the maintenance of the company's website, highlighting the improvement in web load times, SEO, among other improvements
     technologies: HTML / Css / Sass / Jekyll / Web performance analysis / JS
     image: assets/img/47site-poster.png
     url: https://www.47deg.com/
