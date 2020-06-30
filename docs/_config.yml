@@ -7,15 +7,25 @@ description: Hello, I´m Antonio Mateo. I am a dynamic Front End developer with 
 author: AntonioMateoGomez
 #-------------------------
 twitter_username: "@aMateoPaolo"
-github_username:  AntonioMateoGomez
+github_username: AntonioMateoGomez
 #-------------------------
 markdown: kramdown
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 #-------------------------
 permalink: pretty
 #-------------------------
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', '.bundle', 'extra']
+exclude:
+  [
+    "config.ru",
+    "Gemfile",
+    "Gemfile.lock",
+    "vendor",
+    "Procfile",
+    "Rakefile",
+    ".bundle",
+    "extra",
+  ]
 #-------------------------
 github_repository: https://github.com/AntonioMateoGomez/AntonioMateo

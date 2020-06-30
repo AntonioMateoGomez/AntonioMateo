@@ -1,5 +1,4 @@
 #home {
-
   .text {
     font-size: 3.1rem;
     line-height: $base-point-grid * 6;
@@ -24,6 +23,7 @@
       cursor: pointer;
       text-transform: uppercase;
       margin: $base-point-grid * 2;
+      transition: color 0.2s ease-out;
 
       &:hover {
         color: $active-color;
@@ -83,8 +83,8 @@
 
 @media screen and (min-width: $bp-medium) {
   nav .link-wrap div {
-      display: inline;
-      font-size: initial;
-      padding: initial;
+    display: inline;
+    font-size: initial;
+    padding: initial;
   }
 }

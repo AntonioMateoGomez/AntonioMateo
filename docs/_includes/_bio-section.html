@@ -5,20 +5,20 @@
     </div>
     <div class="flex row">
       <div class="bio-grid flex">
-        <img class="me" src="./assets/img/me.png"/>
+        <img class="me" src="./assets/img/me.png" alt="picture" />
       </div>
       <div class="bio-grid">
         {% assign bio_data = site.data.bio-content["bio"] %}
         <p>{{ bio_data.tech_desc1 }}</p>
         <p>{{ bio_data.tech_desc2 }}:</p>
         <ul>
-        {% for item_tool in bio_data.tools %}
+          {% for item_tool in bio_data.tools %}
           <li>
             {{item_tool.name}}
           </li>
-        {% endfor %}
+          {% endfor %}
         </ul>
-        <br/>
+        <br />
         <p>{{ bio_data.personal_desc }}</p>
       </div>
     </div>

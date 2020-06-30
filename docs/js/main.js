@@ -28,7 +28,6 @@ $(function () {
   $(window).on("scroll", function () {
     let pos = $(window).scrollTop();
     let pos2 = pos + 50;
-    let scrollBottom = pos + $(window).height();
 
     if (!isMobile) {
       if (pos >= navPos + $("nav").height() && lastPos < pos) {
