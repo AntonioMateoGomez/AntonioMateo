@@ -11,18 +11,38 @@
         action="https://formspree.io/mnqgqlkl"
         method="post"
       >
-        <input type="text" class="input-form" name="name" id="full-name" placeholder="Full Name" required="">
-        <input type="email" class="input-form" name="_replyto" id="email-address"
-          placeholder="Email Address" required=""
-        >
-        <textarea rows="5" class="input-form" name="message" id="message"
-          placeholder="Message" required=""
+        <input
+          type="text"
+          class="input-form"
+          name="name"
+          id="full-name"
+          placeholder="Full Name"
+          required=""
+          aria-label="Full Name"
+        />
+        <input
+          type="email"
+          class="input-form"
+          name="_replyto"
+          id="email-address"
+          placeholder="Email Address"
+          required=""
+          aria-label="Email"
+        />
+        <textarea
+          rows="5"
+          class="input-form"
+          name="message"
+          id="message"
+          placeholder="Message"
+          required=""
+          aria-label="Message"
         ></textarea>
         <div id="status" class="message-wrapper">
           <div id="status-message"></div>
-          <img id="close" src="./assets/img/icons/icon-close.svg" alt="Close">
+          <img id="close" src="./assets/img/icons/icon-close.svg" alt="Close" />
         </div>
-        <input id="submit" type="submit" value="SUBMIT" class="button">
+        <input id="submit" type="submit" value="SUBMIT" class="button" />
       </form>
     </div>
   </div>

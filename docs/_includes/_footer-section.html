@@ -5,7 +5,7 @@
         {% for item in site.data.footer-nav.nav %}
         <li>
           <a href="{{ item.url }}" target="_blank"
-           title="{{ item.title }}" alt="{{ item.title }}" class="{{ active }}">
+           title="{{ item.title }}" alt="{{ item.title }}" class="{{ active }}" rel="noopener">
             {% if item.icon != "" %}
             <i class="fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
             {% else %}
